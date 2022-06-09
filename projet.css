@@ -1,0 +1,37 @@
+.section-projet {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+}
+
+.projet-list {
+	display: flex;
+	align-items: flex-end;
+	overflow: scroll;
+	margin-top: 10em;
+	padding-bottom: 10em;
+}
+
+.projet {
+	background-color: black;
+	flex: 0 0 20em;
+	margin: 0.5em;
+	height: 20em;
+	padding: 0 38px;
+	transition: flex 1s;
+}
+
+.projet:hover {
+	flex: 0 0 25em;
+	transition: 1s;
+}
+
+.projet h1 {
+	font-size: 2em;
+}
+
+.projet img {
+	width: 36%;
+	margin-right: 50%;
+}
