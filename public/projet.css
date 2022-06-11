@@ -1,7 +1,8 @@
 .section-projet {
+	/* border: 1px solid orange; */
 	display: flex;
 	flex-direction: column;
-	height: 100%;
+	height: 100vh;
 	width: 100%;
 }
 
@@ -10,7 +11,8 @@
 	align-items: flex-end;
 	overflow: scroll;
 	margin-top: 10em;
-	padding-bottom: 10em;
+	padding-bottom: 3em;
+	height: 30em;
 }
 
 .projet {
@@ -19,12 +21,16 @@
 	margin: 0.5em;
 	height: 20em;
 	padding: 0 38px;
-	transition: flex 1s;
+	padding: 15px;
+	transition: margin 0.5s;
 }
 
 .projet:hover {
-	flex: 0 0 25em;
-	transition: 1s;
+	box-shadow: gray 1px 1px 13px;
+	margin-right: 3em;
+	margin-left: 3em;
+	margin-bottom: 3em;
+	transition: 0.5s;
 }
 
 .projet h1 {
