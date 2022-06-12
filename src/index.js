@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Projet from './Projet.js';
+import ProjetList from './ProjetList.js';
 import './style.css';
 
 class Root extends React.Component {
@@ -25,61 +25,7 @@ class Root extends React.Component {
 			</section>
 			<section id="section-projet" className="section-projet">
 				<h1>Mes Projets</h1>
-				<div className="projet-list">
-					<Projet 
-						link="https://mehdi-aq.github.io/portefolio-zelda.github.io"
-						title="Zelda Breath of the wild Landing Page"
-						description="Landing Page du jeu Zelda Botw"
-						imageURL="img/title.png"
-					/>
-					<Projet
-						link="https://mehdi-aq.github.io/fcc_markdown_previewer"
-						title="Markdow Live Previewer"
-						description="A simple markdow editor with a live previewer"
-						imageURL="img/md.png"
-					/>
-					<Projet link="https://mehdi-aq.github.io/fcc_calculator"
-						title="Simple Calculator"
-						description="A simple calculator in Js"
-						imageURL="img/calculator-icon.png"
-					/>
-					<Projet
-						link="https://mehdi-aq.github.io/fcc_drum_machine"
-						title="Drum Machine"
-						description="Virtual drum machine"
-						imageURL="img/fcc_drum_machine_icon.png"
-					/>
-					<Projet
-						link="https://mehdi-aq.github.io/fcc_stupid_clock"
-						title="Stupid Clock"
-						description="Simple count down"
-						imageURL="img/clock.jpeg"
-					/>
-					<Projet
-						link="https://mehdi-aq.github.io/fcc_random_quote_machine"
-						title="Random Quote Machine"
-						description="Display a quote randomly picked"
-						imageURL="img/quote.png"
-					/>
-					<Projet 
-						link="https://mehdi-aq.github.io/product_landing_page"
-						title="Product Landing Page"
-						description="..."
-						imageURL="img/marker_icon.jpeg"
-					/>
-					<Projet 
-						link="https://mehdi-aq.github.io/fcc_technical_documentation_page"
-						title="Technical Documentation Page"
-						description="..."
-						imageURL="img/book_icon.png"
-					/>
-					<Projet
-						link="https://mehdi-aq.github.io/fcc_survey_form"
-						title="Basic Survey Form"
-						description="..."
-						imageURL="img/validation_icon.png"
-					/>
-				</div>
+				<ProjetList />
 			</section>
 		</div>
 		)

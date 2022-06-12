@@ -2,7 +2,7 @@
 	--grey: rgb(199, 199, 199);
 	--grey-dark: #242424;
 	--purple: #8d3fbd;
-	--purple-light: rgb(156, 156, 221);
+	--purple-light: #9c9cdd;
 }
 
 body {
@@ -54,6 +54,8 @@ a:visited, a:link {
 
 .section-intro .button {
 	background-color: var(--purple);
+	background: rgb(189,63,158);
+	background: linear-gradient(0deg, rgba(189,63,158,1) 7%, rgba(141,63,189,1) 29%, rgba(156,156,221,1) 94%); 
 	width: 50%;
 	justify-self: center;
 	margin: 1em;
@@ -74,7 +76,7 @@ nav {
 	flex-direction: column;
 	gap: 1.5em;
 	position: absolute;
-	top: 0;
+	top: 13em;
 	right: 0;
 }
 
@@ -98,5 +100,6 @@ nav .button:first-child {
 
 .button:hover {
 	background-color: var(--purple-light);
+	background: linear-gradient(0deg, rgba(200,182,196,1) 0%, rgba(189,63,158,1) 52%, rgba(141,63,189,1) 93%); 
 	transition-duration: 500ms; 
 }
